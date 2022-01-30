@@ -1,17 +1,16 @@
-## Swift-IL List      
-#### Retakes
-Features of this include:
-- Locking players to the correct team by their [Steam ID](https://github.com/splewis/get5/wiki/Authentication-and-Steam-IDs)
-- In-game [map veto](https://github.com/splewis/get5/wiki/Map-Vetoes) support from the match's maplist
-- Support for multi-map series (Bo1, Bo2, Bo3, Bo5, etc.)
-- Warmup and !ready system for each team
-- Automatic GOTV demo recording
-- [Advanced backup system](https://github.com/splewis/get5/wiki/Match-backups) built on top of valve's backup system
-- Knifing for sides
-- [Pausing support](https://github.com/splewis/get5/wiki/Pausing)
-- Coaching support
-- Automatically executing match config files
-- Automatically setting team names/logos/match text values for spectator/GOTV clients
-- [Stats collection](https://github.com/splewis/get5/wiki/Stats-system) and optional MySQL result/stats upload
-- Allows lightweight usage for [scrims](https://github.com/splewis/get5/wiki/Using-get5-for-scrims)
-- Has its own [event logging](https://github.com/splewis/get5/wiki/Event-logs) system you can interface with
+## רשימה ל Swift-IL      
+#### שרתי ריטייקס
+- לשנות את הvd  שלא צריך 7 איש בשביל שזה יעבוד 
+ואחוז הצבעה בערך 60 אחוז , אם נגיד יש 9 אז ש5 יספיקו
+- לסדר ת afk system ב spec
+- להוסיף site limiter
+- לחפש אנטי ציט יעיל
+- להוסיף Admin spec all 
+- לעדכן את ה!ws לסקינים החדשים
+#### שרתי גייל
+- להחליף פלאגין של הגאנגים.
+- לשנות את הwish: להעלות את הרנדום קרדיטס ל5000-20000, להעלות את הסיכויים לסקינים או לחיות, לקצר את הזמן ל20 שעות במקום 24.
+- להוסיף פקודה כמו / eventcash {@user} {time} , שמה שהיא עושה זה שברגע שסגן מנהל שרת או מנהל שרת עושה אותה, יש 30 שניות- 120 שניות ששקים של 50 קרדיטים נופלים מהבן אדם לזמן שהוא קבע.
+- להחזיר את המערכת באקסטאב לLR.
+- להחזיר את הGC ל1250
+-- לאפשר להיות עם שני סקינים לנשקים שונים בו זמנית בלי שזה יוריד
